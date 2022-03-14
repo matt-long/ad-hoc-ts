@@ -1,0 +1,16 @@
+esm_collection: data/campaign-cesm2-cmip6-timeseries.json
+cache_dir: /glade/scratch/mclong/funnel
+experiments:
+    - historical
+    - SSP1-2.6
+    - SSP2-4.5
+    - SSP3-7.0
+    - SSP5-8.5
+
+data_collections:
+    global_mean_timeseries_ann: 
+    global_integral_timeseries_ann:
+         
+       
+       
+      

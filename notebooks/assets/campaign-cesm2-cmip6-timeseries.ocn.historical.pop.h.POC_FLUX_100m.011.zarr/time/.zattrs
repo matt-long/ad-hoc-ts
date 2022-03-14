@@ -1,0 +1,7 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "time"
+    ],
+    "bounds": "time_bound",
+    "long_name": "time"
+}

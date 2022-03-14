@@ -1,0 +1,6 @@
+asset: assets/campaign-cesm2-cmip6-timeseries.ocn.historical.pop.h.POC_FLUX_100m.005.zarr
+catalog_file: data/campaign-cesm2-cmip6-timeseries.json
+key: ocn.historical.pop.h
+member_id: 5
+name: ann-timeseries
+variable: POC_FLUX_100m

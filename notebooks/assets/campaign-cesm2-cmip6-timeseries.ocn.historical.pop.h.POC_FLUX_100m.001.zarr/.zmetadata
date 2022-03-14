@@ -1,0 +1,93 @@
+{
+    "metadata": {
+        ".zattrs": {},
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "POC_FLUX_100m/.zarray": {
+            "chunks": [
+                1,
+                1
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4,
+                165
+            ],
+            "zarr_format": 2
+        },
+        "POC_FLUX_100m/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "region",
+                "time"
+            ],
+            "cell_methods": "time: mean",
+            "grid_loc": "2110",
+            "long_name": "POC Flux at 100m",
+            "units": "mmol/m^3 cm/s"
+        },
+        "region/.zarray": {
+            "chunks": [
+                4
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<U14",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                4
+            ],
+            "zarr_format": 2
+        },
+        "region/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "region"
+            ]
+        },
+        "time/.zarray": {
+            "chunks": [
+                165
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": 9.969209968386869e+36,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                165
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "bounds": "time_bound",
+            "long_name": "time"
+        }
+    },
+    "zarr_consolidated_format": 1
+}
