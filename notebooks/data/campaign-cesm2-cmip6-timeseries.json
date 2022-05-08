@@ -58,7 +58,8 @@
     "groupby_attrs": [
       "component",
       "experiment",
-      "stream"
+      "stream",
+      "member_id"
     ],
     "aggregations": [
       {
@@ -70,14 +71,6 @@
         "attribute_name": "date_range",
         "options": {
           "dim": "time",
-          "coords": "minimal",
-          "compat": "override"
-        }
-      },
-      {
-        "type": "join_new",
-        "attribute_name": "member_id",
-        "options": {
           "coords": "minimal",
           "compat": "override"
         }
