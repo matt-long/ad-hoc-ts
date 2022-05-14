@@ -134,3 +134,4 @@ notes.md
 .DS_Store
 cruft
 PET0.RegridWeightGen.Log
+notebooks/assets/*
